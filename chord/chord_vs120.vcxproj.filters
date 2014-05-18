@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="net">
+      <UniqueIdentifier>{333d2aff-cc2b-4776-be7f-ba56a5dadda4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="foundation">
+      <UniqueIdentifier>{298f9c45-b04e-4881-aa80-02779b3bdd4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thread">
+      <UniqueIdentifier>{7fc7c844-3e66-4ef5-8f71-8bb41a81b600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{0c7860cf-3488-4dd0-a085-50b24109156a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="database">
+      <UniqueIdentifier>{5dfbaf8a-4cfb-457c-95fa-df85bd8e3cf3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="net\tcp_server.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="foundation\application.hpp">
+      <Filter>foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\chord_foundation.h">
+      <Filter>foundation</Filter>
+    </ClInclude>
+    <ClInclude Include="foundation\types.h">
+      <Filter>foundation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
