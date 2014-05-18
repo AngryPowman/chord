@@ -19,3 +19,14 @@
 *.exe
 *.out
 *.app
+/lib
+/lib64
+/bin
+/bin64
+/chord/obj
+/chord/obj64
+
+# For Microsoft Visual C++
+*.suo
+*.sdf
+*.opensdf
