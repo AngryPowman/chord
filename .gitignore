@@ -25,6 +25,7 @@
 /bin64
 /chord/obj
 /chord/obj64
+/boost
 
 # For Microsoft Visual C++
 *.suo
